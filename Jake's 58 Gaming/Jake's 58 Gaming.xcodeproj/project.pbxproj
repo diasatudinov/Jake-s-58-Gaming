@@ -10,22 +10,9 @@
 		2BAF53BC2E589C2B00159159 /* Jake's 58 Gaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jake's 58 Gaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2BAF53CE2E589C4800159159 /* Exceptions for "Jake's 58 Gaming" folder in "Jake's 58 Gaming" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"Jake-s-58-Gaming-Info.plist",
-			);
-			target = 2BAF53BB2E589C2B00159159 /* Jake's 58 Gaming */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2BAF53BE2E589C2B00159159 /* Jake's 58 Gaming */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2BAF53CE2E589C4800159159 /* Exceptions for "Jake's 58 Gaming" folder in "Jake's 58 Gaming" target */,
-			);
 			path = "Jake's 58 Gaming";
 			sourceTree = "<group>";
 		};
@@ -288,7 +275,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +310,7 @@
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
