@@ -1,14 +1,18 @@
+//
+//  LEGAchievementsViewModel.swift
+//  Jake's 58 Gaming
+//
+//
+
+
 import SwiftUI
 
 class LEGAchievementsViewModel: ObservableObject {
     
     @Published var achievements: [LEGAchievement] = [
-        LEGAchievement(image: "achieve1ImageLEG",isAchieved: false),
-        LEGAchievement(image: "achieve2ImageLEG",isAchieved: false),
-        LEGAchievement(image: "achieve3ImageLEG",isAchieved: false),
-        LEGAchievement(image: "achieve4ImageLEG",isAchieved: false),
-        LEGAchievement(image: "achieve5ImageLEG",isAchieved: false),
-
+        LEGAchievement(image: "achieve1ImageJG",isAchieved: false),
+        LEGAchievement(image: "achieve2ImageJG",isAchieved: false),
+        LEGAchievement(image: "achieve3ImageJG",isAchieved: false),
     ] {
         didSet {
             saveAchievementsItem()
@@ -20,7 +24,7 @@ class LEGAchievementsViewModel: ObservableObject {
         
     }
     
-    private let userDefaultsAchievementsKey = "achievementsKeyNEG"
+    private let userDefaultsAchievementsKey = "achievementsKeyJG"
     
     func achieveToggle(_ achive: LEGAchievement) {
         guard let index = achievements.firstIndex(where: { $0.id == achive.id })
